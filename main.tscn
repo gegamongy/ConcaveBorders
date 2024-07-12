@@ -1,0 +1,1571 @@
+[gd_scene load_steps=5 format=3 uid="uid://ck1yul2xmeii3"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_r6cpo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1iwgd"]
+albedo_color = Color(0.145999, 0.227072, 0.0277471, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_n7dua"]
+material = SubResource("StandardMaterial3D_1iwgd")
+size = Vector3(500, 1, 500)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k2cxp"]
+size = Vector3(0.1, 1, 0.1)
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_r6cpo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("BoxMesh_n7dua")
+
+[node name="flagpoles" type="Node" parent="."]
+
+[node name="flagpole" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole2" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.879105, 0.5, 0.452814)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole3" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, -0.247225, 0.5, 1.71227)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole4" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, -0.268637, 0.5, 0.723627)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole5" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, -2.23329, 0.5, 0.197688)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole6" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, -1.4899, 0.5, -0.45442)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole7" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, -1.60445, 0.5, 1.97242)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole8" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, -1.65838, 0.5, 0.712742)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole9" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, -0.00749889, 0.5, -2.42696)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole10" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, 0.810001, 0.5, -2.98334)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole11" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 1.37914, 0.5, -1.39246)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole12" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 0.500163, 0.5, -1.84552)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole13" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, -0.899723, 0.5, -0.370124)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole14" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, -1.11794, 0.5, -1.33462)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole15" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, 0.570846, 0.5, -1.28139)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole16" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, -0.172721, 0.5, -0.629487)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole17" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.80061, 0.5, -1.35098)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole18" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.92151, 0.5, -0.898165)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole19" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, -3.04784, 0.5, 0.361287)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole20" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, -3.06925, 0.5, -0.627352)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole21" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, -5.0339, 0.5, -1.15329)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole22" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, -4.29051, 0.5, -1.8054)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole23" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, -4.49194, 0.5, 0.506572)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole24" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, -4.45899, 0.5, -0.638237)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole25" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, -2.80811, 0.5, -3.77794)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole26" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, -1.99061, 0.5, -4.33432)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole27" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, -1.29416, 0.5, -1.96159)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole28" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, -2.21578, 0.5, -3.27642)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole29" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, -3.70033, 0.5, -1.7211)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole30" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, -3.91855, 0.5, -2.68559)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole31" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, -2.22976, 0.5, -2.63237)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole32" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, -2.97333, 0.5, -1.98047)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole33" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 2.61016, 0.5, -7.3872)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole34" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 2.74952, 0.5, -8.3662)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole35" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 4.30877, 0.5, -7.71538)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole36" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 3.38187, 0.5, -7.37082)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole37" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 3.52956, 0.5, -5.34236)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole38" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 2.66967, 0.5, -5.83068)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole39" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 4.99978, 0.5, -6.51861)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole40" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 3.8275, 0.5, -6.05442)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole41" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 0.319975, 0.5, -6.58393)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole42" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, -0.473801, 0.5, -7.17366)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole43" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 0.84233, 0.5, -8.23321)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole44" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 0.7027, 0.5, -7.25424)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole45" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 2.55568, 0.5, -6.41585)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole46" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 1.71616, 0.5, -5.89329)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole47" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 1.21242, 0.5, -7.50608)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole48" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 2.07218, 0.5, -7.01753)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole49" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 2.25272, 0.5, -4.29838)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole50" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 2.39207, 0.5, -5.27738)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole51" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 3.95132, 0.5, -4.62656)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole52" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 3.02442, 0.5, -4.282)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole53" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 3.17211, 0.5, -2.25355)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole54" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 2.31222, 0.5, -2.74186)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole55" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 4.56232, 0.5, -3.31004)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole56" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 3.47006, 0.5, -2.96561)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole57" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, -0.0374713, 0.5, -3.49511)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole58" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, -0.831248, 0.5, -4.08484)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole59" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 1.18169, 0.5, -5.52115)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole60" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 0.241974, 0.5, -4.21919)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole61" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 2.19824, 0.5, -3.32703)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole62" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 1.35871, 0.5, -2.80448)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole63" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 0.854973, 0.5, -4.41727)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole64" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 1.71473, 0.5, -3.92871)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole65" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 4.36815, 0.5, -0.492616)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole66" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 4.50751, 0.5, -1.47162)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole67" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 6.06676, 0.5, -0.820796)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole68" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 5.13986, 0.5, -0.476239)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole69" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 5.28755, 0.5, 1.55222)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole70" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 4.42766, 0.5, 1.06391)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole71" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 6.75777, 0.5, 0.37597)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole72" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 5.58549, 0.5, 0.840161)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole73" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 2.07797, 0.5, 0.310655)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole74" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 1.28419, 0.5, -0.279078)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole75" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 2.60032, 0.5, -1.33862)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole76" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 2.46069, 0.5, -0.359661)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole77" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 4.31367, 0.5, 0.478736)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole78" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 3.47415, 0.5, 1.00129)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole79" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 2.97041, 0.5, -0.611499)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole80" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 3.83017, 0.5, -0.122945)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole81" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 4.01071, 0.5, 2.5962)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole82" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 4.15006, 0.5, 1.6172)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole83" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 5.70931, 0.5, 2.26802)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole84" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 4.78241, 0.5, 2.61258)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole85" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 4.9301, 0.5, 4.64104)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole86" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 4.07021, 0.5, 4.15272)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole87" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 6.32031, 0.5, 3.58454)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole88" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 5.22805, 0.5, 3.92898)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole89" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 1.72052, 0.5, 3.39947)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole90" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 0.926742, 0.5, 2.80974)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole91" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 2.93968, 0.5, 1.37344)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole92" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 1.99996, 0.5, 2.67539)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole93" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 3.95623, 0.5, 3.56755)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole94" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 3.1167, 0.5, 4.09011)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole95" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 2.61296, 0.5, 2.47732)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole96" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 3.47272, 0.5, 2.96587)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole97" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 13.249, 0.5, -2.63665)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole98" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 13.6109, 0.5, -3.55692)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole99" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 14.9774, 0.5, -2.56328)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole100" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 13.996, 0.5, -2.44232)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole101" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 13.6708, 0.5, -0.434666)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole102" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 12.947, 0.5, -1.10853)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole103" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 15.3731, 0.5, -1.23918)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole104" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 14.1252, 0.5, -1.05856)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole105" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 10.8351, 0.5, -2.38456)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole106" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 10.1992, 0.5, -3.14182)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole107" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 11.7246, 0.5, -3.86842)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole108" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 11.3624, 0.5, -2.94825)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole109" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 12.9714, 0.5, -1.7042)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole110" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 12.0338, 0.5, -1.38988)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole111" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 11.9166, 0.5, -3.07543)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole112" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 12.6401, 0.5, -2.40136)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole113" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 12.1872, 0.5, 0.285868)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole114" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 12.5491, 0.5, -0.634402)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole115" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 13.9156, 0.5, 0.359245)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole116" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 12.9342, 0.5, 0.480198)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole117" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 12.609, 0.5, 2.48785)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole118" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 11.8852, 0.5, 1.81398)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole119" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 14.2057, 0.5, 1.78135)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole120" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 13.0634, 0.5, 1.86396)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole121" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 9.77332, 0.5, 0.537957)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole122" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 9.13737, 0.5, -0.219299)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole123" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 11.4278, 0.5, -1.15136)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole124" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 10.2126, 0.5, -0.101911)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole125" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 11.9096, 0.5, 1.21832)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole126" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 10.972, 0.5, 1.53264)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole127" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 10.8548, 0.5, -0.152912)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole128" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 11.5783, 0.5, 0.521159)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole129" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 5.6363, 0.5, -4.48892)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole130" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 4.64824, 0.5, -4.52889)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole131" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 5.13858, 0.5, -6.1458)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole132" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 5.57481, 0.5, -5.25835)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole133" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 7.57805, 0.5, -5.60975)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole134" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 7.1789, 0.5, -4.70502)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole135" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 6.2596, 0.5, -6.95392)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole136" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 6.83959, 0.5, -5.8344)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole137" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 6.66632, 0.5, -2.29136)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole138" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 6.1596, 0.5, -1.44219)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole139" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 4.97279, 0.5, -2.64482)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole140" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 5.96084, 0.5, -2.60458)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole141" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 6.6082, 0.5, -4.53263)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole142" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 7.21271, 0.5, -3.75005)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole143" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 5.65891, 0.5, -3.08631)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole144" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 6.05832, 0.5, -3.99094)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole145" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 8.74542, 0.5, -4.44464)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole146" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 7.75735, 0.5, -4.4846)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole147" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 8.24769, 0.5, -6.10151)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole148" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 8.68393, 0.5, -5.21407)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole149" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 10.6872, 0.5, -5.56546)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole150" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 10.288, 0.5, -4.66073)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole151" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 9.49592, 0.5, -6.8421)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole152" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 9.9487, 0.5, -5.79012)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole153" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 9.77544, 0.5, -2.24708)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole154" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 9.26872, 0.5, -1.3979)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole155" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 7.63684, 0.5, -3.25582)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole156" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 9.02688, 0.5, -2.45212)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole157" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 9.71731, 0.5, -4.48834)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole158" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 10.3218, 0.5, -3.70576)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole159" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 8.76803, 0.5, -3.04203)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole160" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 9.16743, 0.5, -3.94665)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole161" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 12.3186, 0.5, -6.9329)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole162" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 11.3305, 0.5, -6.97287)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole163" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 11.8209, 0.5, -8.58978)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole164" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 12.2571, 0.5, -7.70233)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole165" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 14.2603, 0.5, -8.05373)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole166" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 13.8612, 0.5, -7.149)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole167" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 12.9419, 0.5, -9.3979)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole168" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 13.5219, 0.5, -8.27839)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole169" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 13.3486, 0.5, -4.73535)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole170" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 12.8419, 0.5, -3.88617)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole171" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 11.6551, 0.5, -5.0888)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole172" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 12.6431, 0.5, -5.04856)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole173" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 13.2905, 0.5, -6.97661)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole174" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 13.895, 0.5, -6.19403)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole175" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 12.3412, 0.5, -5.5303)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole176" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 12.7406, 0.5, -6.43492)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole177" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 15.4277, 0.5, -6.88862)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole178" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 14.4396, 0.5, -6.92859)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole179" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 14.93, 0.5, -8.5455)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole180" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 15.3662, 0.5, -7.65805)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole181" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 17.3694, 0.5, -8.00944)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole182" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 16.9703, 0.5, -7.10471)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole183" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 16.1782, 0.5, -9.28608)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole184" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 16.631, 0.5, -8.2341)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole185" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 16.4577, 0.5, -4.69106)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole186" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 15.951, 0.5, -3.84188)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole187" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 14.3191, 0.5, -5.6998)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole188" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 15.7092, 0.5, -4.8961)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole189" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 16.3996, 0.5, -6.93233)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole190" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 17.0041, 0.5, -6.14975)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole191" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 15.4503, 0.5, -5.48601)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole192" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 15.8497, 0.5, -6.39063)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole193" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.49731, 0.5, 9.36596)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole194" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.37642, 0.5, 9.81878)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole195" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, 6.25009, 0.5, 11.0782)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole196" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, 6.22868, 0.5, 10.0896)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole197" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, 4.26403, 0.5, 9.56365)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole198" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, 5.00741, 0.5, 8.91154)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole199" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, 4.89286, 0.5, 11.3384)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole200" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, 4.83894, 0.5, 10.0787)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole201" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, 6.48981, 0.5, 6.939)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole202" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, 7.30731, 0.5, 6.38262)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole203" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 7.87645, 0.5, 7.97351)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole204" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 6.99748, 0.5, 7.52045)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole205" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, 5.59759, 0.5, 8.99584)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole206" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, 5.37937, 0.5, 8.03135)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole207" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, 7.06816, 0.5, 8.08458)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole208" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, 6.32459, 0.5, 8.73648)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole209" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6967, 0.5, 8.01498)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole210" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.57581, 0.5, 8.4678)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole211" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, 3.44948, 0.5, 9.72725)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole212" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.477051, 0, 0.878875, 0, 1, 0, -0.878875, 0, -0.477051, 3.42807, 0.5, 8.73861)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole213" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, 1.46342, 0.5, 8.21267)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole214" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.366339, 0, 0.930482, 0, 1, 0, -0.930482, 0, 0.366339, 2.2068, 0.5, 7.56056)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole215" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, 2.00537, 0.5, 9.87253)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole216" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.99254, 0, -0.121921, 0, 1, 0, 0.121921, 0, -0.99254, 2.03833, 0.5, 8.72773)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole217" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, 3.6892, 0.5, 5.58802)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole218" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.477297, 0, 0.878742, 0, 1, 0, -0.878742, 0, 0.477297, 4.5067, 0.5, 5.03164)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole219" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 5.20315, 0.5, 7.40437)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole220" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-1, 0, 0.000279218, 0, 1, 0, -0.000279218, 0, -1, 4.28154, 0.5, 6.08954)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole221" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, 2.79698, 0.5, 7.64486)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole222" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.642801, 0, 0.766033, 0, 1, 0, -0.766033, 0, -0.642801, 2.57876, 0.5, 6.68037)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole223" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, 4.26755, 0.5, 6.7336)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole224" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.366599, 0, -0.930379, 0, 1, 0, 0.930379, 0, -0.366599, 3.52398, 0.5, 7.3855)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole225" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 9.10748, 0.5, 1.97876)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole226" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 9.24683, 0.5, 0.999762)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole227" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 10.8061, 0.5, 1.65058)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole228" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 9.87918, 0.5, 1.99514)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole229" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 10.0269, 0.5, 4.0236)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole230" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 9.16698, 0.5, 3.53529)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole231" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 11.4971, 0.5, 2.84735)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole232" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 10.3248, 0.5, 3.31154)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole233" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 6.81729, 0.5, 2.78203)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole234" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 6.02351, 0.5, 2.1923)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole235" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 7.33964, 0.5, 1.13276)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole236" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 7.20001, 0.5, 2.11172)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole237" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 9.053, 0.5, 2.95012)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole238" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 8.21347, 0.5, 3.47267)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole239" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 7.70973, 0.5, 1.85988)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole240" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 8.56949, 0.5, 2.34843)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole241" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 8.75003, 0.5, 5.06758)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole242" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 8.88939, 0.5, 4.08858)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole243" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 10.4486, 0.5, 4.7394)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole244" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 9.52174, 0.5, 5.08396)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole245" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 9.66943, 0.5, 7.11242)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole246" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 8.80953, 0.5, 6.6241)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole247" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 11.0596, 0.5, 6.05592)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole248" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 9.96737, 0.5, 6.40036)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole249" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 6.45984, 0.5, 5.87085)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole250" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 5.66607, 0.5, 5.28112)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole251" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 7.67901, 0.5, 3.84482)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole252" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 6.73929, 0.5, 5.14677)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole253" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 8.69555, 0.5, 6.03893)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole254" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 7.85603, 0.5, 6.56149)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole255" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 7.35229, 0.5, 4.9487)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole256" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 8.21204, 0.5, 5.43725)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole257" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 10.8655, 0.5, 8.87335)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole258" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 11.0048, 0.5, 7.89434)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole259" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 12.5641, 0.5, 8.54517)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole260" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 11.6372, 0.5, 8.88972)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole261" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 11.7849, 0.5, 10.9182)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole262" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 10.925, 0.5, 10.4299)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole263" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 13.2551, 0.5, 9.74193)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole264" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 12.0828, 0.5, 10.2061)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole265" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 8.57528, 0.5, 9.67662)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole266" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 7.7815, 0.5, 9.08689)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole267" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 9.09763, 0.5, 8.02734)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole268" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 8.958, 0.5, 9.0063)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole269" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 10.811, 0.5, 9.8447)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole270" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 9.97146, 0.5, 10.3673)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole271" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 9.46772, 0.5, 8.75446)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole272" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 10.3275, 0.5, 9.24302)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole273" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 10.508, 0.5, 11.9622)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole274" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.328059, 0, 0.944657, 0, 1, 0, -0.944657, 0, -0.328059, 10.6474, 0.5, 10.9832)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole275" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 12.2066, 0.5, 11.634)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole276" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.673735, 0, -0.738973, 0, 1, 0, 0.738973, 0, -0.673735, 11.2797, 0.5, 11.9785)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole277" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 11.4274, 0.5, 14.007)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole278" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.999167, 0, 0.0408119, 0, 1, 0, -0.0408119, 0, -0.999167, 10.5675, 0.5, 13.5187)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole279" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 12.8176, 0.5, 12.9505)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole280" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.440785, 0, -0.897613, 0, 1, 0, 0.897613, 0, 0.440785, 11.7254, 0.5, 13.2949)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole281" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 8.21783, 0.5, 12.7654)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole282" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.986692, 0, 0.162603, 0, 1, 0, -0.162603, 0, -0.986692, 7.42406, 0.5, 12.1757)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole283" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 9.437, 0.5, 10.7394)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole284" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.327795, 0, -0.944749, 0, 1, 0, 0.944749, 0, 0.327795, 8.49728, 0.5, 12.0414)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole285" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 10.4535, 0.5, 12.9335)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole286" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.512762, 0, -0.858531, 0, 1, 0, 0.858531, 0, -0.512762, 9.61402, 0.5, 13.4561)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole287" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 9.11028, 0.5, 11.8433)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole288" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.999155, 0, -0.0410909, 0, 1, 0, 0.0410909, 0, 0.999155, 9.97003, 0.5, 12.3318)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole289" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 19.7463, 0.5, 6.72931)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole290" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 20.1082, 0.5, 5.80904)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole291" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 21.4748, 0.5, 6.80269)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole292" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 20.4933, 0.5, 6.92364)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole293" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 20.1681, 0.5, 8.9313)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole294" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 19.4444, 0.5, 8.25743)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole295" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 21.8704, 0.5, 8.12678)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole296" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 20.6226, 0.5, 8.3074)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole297" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 17.3324, 0.5, 6.9814)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole298" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 16.6965, 0.5, 6.22414)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole299" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 18.2219, 0.5, 5.49755)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole300" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 17.8598, 0.5, 6.41772)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole301" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 19.4687, 0.5, 7.66176)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole302" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 18.5312, 0.5, 7.97608)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole303" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 18.4139, 0.5, 6.29053)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole304" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 19.1374, 0.5, 6.9646)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole305" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 18.6845, 0.5, 9.65183)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole306" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.100796, 0, 0.994907, 0, 1, 0, -0.994907, 0, -0.100796, 19.0464, 0.5, 8.73156)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole307" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 20.4129, 0.5, 9.72521)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole308" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.826315, 0, -0.563209, 0, 1, 0, 0.563209, 0, -0.826315, 19.4315, 0.5, 9.84616)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole309" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 19.1063, 0.5, 11.8538)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole310" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.962668, 0, 0.270684, 0, 1, 0, -0.270684, 0, -0.962668, 18.3825, 0.5, 11.1799)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole311" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 20.703, 0.5, 11.1473)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole312" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.221344, 0, -0.975196, 0, 1, 0, 0.975196, 0, 0.221344, 19.5607, 0.5, 11.2299)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole313" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 16.2706, 0.5, 9.90392)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole314" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.922376, 0, 0.386292, 0, 1, 0, -0.386292, 0, -0.922376, 15.6347, 0.5, 9.14666)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole315" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 17.9251, 0.5, 8.2146)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole316" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.100518, 0, -0.994935, 0, 1, 0, 0.994935, 0, 0.100518, 16.7099, 0.5, 9.26405)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole317" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 18.4069, 0.5, 10.5843)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole318" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.69734, 0, -0.71674, 0, 1, 0, 0.71674, 0, -0.69734, 17.4693, 0.5, 10.8986)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole319" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 17.3521, 0.5, 9.21305)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole320" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.962593, 0, -0.270953, 0, 1, 0, 0.270953, 0, 0.962593, 18.0756, 0.5, 9.88712)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole321" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 12.1336, 0.5, 4.87704)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole322" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 11.1456, 0.5, 4.83707)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole323" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 11.6359, 0.5, 3.22016)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole324" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 12.0721, 0.5, 4.10761)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole325" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 14.0754, 0.5, 3.75622)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole326" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 13.6762, 0.5, 4.66095)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole327" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 12.7569, 0.5, 2.41204)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole328" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 13.3369, 0.5, 3.53156)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole329" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 13.1636, 0.5, 7.0746)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole330" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 12.6569, 0.5, 7.92377)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole331" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 11.4701, 0.5, 6.72114)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole332" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 12.4582, 0.5, 6.76139)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole333" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 13.1055, 0.5, 4.83333)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole334" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 13.71, 0.5, 5.61591)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole335" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 12.1562, 0.5, 6.27965)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole336" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 12.5556, 0.5, 5.37503)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole337" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 15.2427, 0.5, 4.92133)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole338" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 14.2547, 0.5, 4.88136)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole339" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 14.745, 0.5, 3.26445)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole340" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 15.1812, 0.5, 4.1519)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole341" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 17.1845, 0.5, 3.8005)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole342" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 16.7853, 0.5, 4.70523)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole343" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 15.9932, 0.5, 2.52386)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole344" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 16.446, 0.5, 3.57585)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole345" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 16.2728, 0.5, 7.11888)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole346" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 15.766, 0.5, 7.96806)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole347" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 14.1341, 0.5, 6.11014)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole348" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 15.5242, 0.5, 6.91385)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole349" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 16.2146, 0.5, 4.87762)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole350" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 16.8191, 0.5, 5.6602)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole351" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 15.2653, 0.5, 6.32393)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole352" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 15.6647, 0.5, 5.41931)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole353" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 18.8159, 0.5, 2.43306)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole354" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 17.8278, 0.5, 2.39309)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole355" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 18.3182, 0.5, 0.776181)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole356" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 18.7544, 0.5, 1.66363)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole357" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 20.7576, 0.5, 1.31223)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole358" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 20.3585, 0.5, 2.21697)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole359" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 19.4392, 0.5, -0.0319386)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole360" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 20.0192, 0.5, 1.08758)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole361" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 19.8459, 0.5, 4.63062)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole362" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 19.3392, 0.5, 5.47979)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole363" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 18.1524, 0.5, 4.27716)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole364" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 19.1404, 0.5, 4.3174)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole365" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 19.7878, 0.5, 2.38935)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole366" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 20.3923, 0.5, 3.17193)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole367" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 18.8385, 0.5, 3.83566)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole368" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 19.2379, 0.5, 2.93104)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole369" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 21.925, 0.5, 2.47734)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole370" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.906779, 0, -0.421606, 0, 1, 0, 0.421606, 0, -0.906779, 20.9369, 0.5, 2.43738)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole371" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 21.4273, 0.5, 0.820465)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole372" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.803119, 0, -0.595818, 0, 1, 0, 0.595818, 0, 0.803119, 21.8635, 0.5, 1.70792)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole373" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 23.8668, 0.5, 1.35652)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole374" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.0601078, 0, -0.998192, 0, 1, 0, 0.998192, 0, 0.0601078, 23.4676, 0.5, 2.26125)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole375" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 22.6755, 0.5, 0.0798826)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole376" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.848612, 0, 0.529016, 0, 1, 0, -0.529016, 0, 0.848612, 23.1283, 0.5, 1.13186)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole377" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 22.955, 0.5, 4.6749)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole378" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0623202, 0, -0.998056, 0, 1, 0, 0.998056, 0, -0.0623202, 22.4483, 0.5, 5.52408)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole379" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 20.8164, 0.5, 3.66616)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole380" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.906897, 0, 0.421352, 0, 1, 0, -0.421352, 0, 0.906897, 22.2065, 0.5, 4.46986)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole381" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 22.8969, 0.5, 2.43364)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole382" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(0.905843, 0, -0.423615, 0, 1, 0, 0.423615, 0, 0.905843, 23.5014, 0.5, 3.21622)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole383" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 21.9476, 0.5, 3.87995)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="flagpole384" type="MeshInstance3D" parent="flagpoles"]
+transform = Transform3D(-0.0598291, 0, 0.998209, 0, 1, 0, -0.998209, 0, -0.0598291, 22.347, 0.5, 2.97533)
+mesh = SubResource("BoxMesh_k2cxp")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="UI"]
+anchor_mode = 0
+
+[node name="Control" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 659.0
+offset_top = 428.0
+offset_right = 699.0
+offset_bottom = 468.0
